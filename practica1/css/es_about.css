@@ -73,3 +73,28 @@ body {
    .art5{
       text-align: justify;
    }
+
+   footer {
+      width: 100%;
+      clear: left;
+      text-align: center;
+      font-size: 1em;
+      margin-top: 100px;
+      border-top: 2px solid rgb(26, 36, 128);
+      font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+   }
+
+   body {
+      width: 88.2%;
+      max-width: 900px;
+      padding-left: 0.9%;
+      padding-right: 0.9%;
+      margin: 0px auto auto auto;
+      clear: none;
+      float: none;
+      background-color: white;
+      -moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+      -webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+      box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+   }
+   

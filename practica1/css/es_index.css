@@ -69,3 +69,13 @@ h1::before {
     text-align: center;
 
 }
+
+footer {
+	width: 100%;
+	clear: left;
+	text-align: center;
+	font-size: 1em;
+	margin-top: 100px;
+	border-top: 2px solid rgb(26, 36, 128);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
