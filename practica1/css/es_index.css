@@ -52,12 +52,28 @@ h1::before {
     left: -140px;
 }
 
-h1::before {
+h1::after {
     right: -140px;
 }
 
+.art0 img {
+    text-align: center;
+}
+
 .art1 {
+    text-align: center;
+}
+
+.p1 {
     text-align: justify;
+}
+
+.art2 {
+    text-align: center;
+}
+
+.art3{
+    text-align: center;
 }
 
 .im1 {
@@ -70,12 +86,19 @@ h1::before {
 
 }
 
-footer {
-	width: 100%;
-	clear: left;
-	text-align: center;
-	font-size: 1em;
-	margin-top: 100px;
-	border-top: 2px solid rgb(26, 36, 128);
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+article img {
+    margin: 2px;
+    padding: 20px 0 0 0;
+    width: 10%;
 }
+
+footer {
+    width: top;
+    clear: top;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 100px;
+    border-top: 2px solid rgb(26, 36, 128);
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
