@@ -6,3 +6,19 @@
    This file contains the base styles used by all pages in the website
 
 */
+
+body {
+   text-align: center;
+   background: #acb6e5;
+   /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, rgba(134, 253, 231, 0.61), rgba(172, 182, 229, 0.61)), url(../imagenes/fondo8.jpg);
+   /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, rgba(134, 253, 231, 0.61), rgba(172, 182, 229, 0.61)), url(../imagenes/fondo8.jpg);
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+header {
+   text-align: justify;
+
+}
