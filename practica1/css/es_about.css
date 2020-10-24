@@ -7,6 +7,43 @@
 
 */
 
+.enc1{
+   text-align: center;
+}
+
+.tit{
+   text-align: center;
+}
+
+h3 {
+   
+   display: inline-block;
+   /* Para que el titulo solo abarque solo la cantidad de letras que tenga y no toda la linea*/
+   position: relative;
+   /*mover las rayas en base sa la posicion del texto*/
+   color: blue;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+
+}
+h3::after,
+h3::before {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: black;
+    top: 0.6em;
+
+}
+
+h3::before {
+    left: -140px;
+}
+
+h3::after {
+    right: -140px;
+}
+
 body {
    background: #CC95C0;
    /* fallback for old browsers */
@@ -15,4 +52,24 @@ body {
    background: linear-gradient(to right, rgba(122, 162, 210, 0.61), rgba(219, 212, 180, 0.61), rgba(204, 148, 192, 0.61)), url(../imagenes/fondo1.jpg);
          /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+   }
+
+   .art1{
+      text-align: justify;
+   }
+
+   .art2{
+      text-align: justify;
+   }
+
+   .art3{
+      text-align: justify;
+   }
+
+   .art4{
+      text-align: justify;
+   }
+
+   .art5{
+      text-align: justify;
    }

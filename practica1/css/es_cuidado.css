@@ -7,8 +7,12 @@
 
 */
 
-body {
+.enc1{
    text-align: center;
+}
+
+body {
+   
    background: #22c1c3;
    /* fallback for old browsers */
    background: -webkit-linear-gradient(to right, rgba(253, 187, 45, 0.61), rgba(34, 192, 195, 0.61)), url(../imagenes/fondo6.jpg);
@@ -22,3 +26,8 @@ header {
    text-align: justify;
 
 }
+
+.art1{
+   text-align: justify;
+}
+
