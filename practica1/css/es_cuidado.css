@@ -6,54 +6,16 @@
    This file contains the base styles used by all pages in the website
 
 */
-
-.enc1{
-   text-align: center; 
-}
-
 body {
-   
-   background: #22c1c3;
-   /* fallback for old browsers */
-   background: -webkit-linear-gradient(to right, rgba(253, 187, 45, 0.61), rgba(34, 192, 195, 0.61)), url(../imagenes/fondo6.jpg);
-   /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to right, rgba(253, 187, 45, 0.61), rgba(34, 192, 195, 0.61)), url(../imagenes/fondo6.jpg);
-   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-
-header {
-   text-align: justify;
-
-}
-
-.art1{
-   text-align: justify;
-}
-
-footer {
 	width: 100%;
-	clear: left;
-	text-align: center;
-	font-size: 1.5em;
-	margin-top: 100px;
-	border-top: 2px solid rgb(26, 36, 128);
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-}
-
-body {
-	width: 88.2%;
-	max-width: 900px;
-	padding-left: 1%;
-	padding-right: 1%;
-	margin: 0px auto auto auto;
+	padding-left: 2%;
+	padding-right: 2%;
 	clear: none;
 	float: none;
-	background-color: white;
-	-moz-box-shadow: rgba(55, 31, 61, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
-	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
-	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	margin-left: auto;
 }
+
+
 
 /*menu general*/
 
@@ -76,14 +38,7 @@ body {
 	font-size: 16px;
 }
 
-body {
-	width: 89.9%;
-	padding-left: 2%;
-	padding-right: 2%;
-	clear: none;
-	float: none;
-	margin-left: auto;
-}
+
 
 header h1 {
 	font-size: 3.2em;
@@ -113,17 +68,6 @@ article {
 	width: 90%;
 	float: none;
 	margin: 0px auto;
-}
-
-dl#ct_locations {
-	width: 57%;
-	margin: 0px 0px 0px 20px;
-}
-
-dl {
-	width: 90%;
-	margin: 0 auto;
-	text-align: left;
 }
 
 
@@ -197,3 +141,51 @@ article img {
 	width: 40%;
 	margin: 2% 2% 2% 2%;
 }
+
+.enc1{
+	text-align: center; 
+ }
+ 
+ 
+ 
+ body {
+	
+	background: #22c1c3;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(253, 187, 45, 0.61), rgba(34, 192, 195, 0.61)), url(../imagenes/fondo6.jpg);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(253, 187, 45, 0.61), rgba(34, 192, 195, 0.61)), url(../imagenes/fondo6.jpg);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+	/*sombras*/
+	width: 100%;
+	max-width: 900px;
+	padding-left: 1%;
+	padding-right: 1%;
+	margin: 0px auto auto auto;
+	clear: none;
+	float: none;
+	background-color: white;
+	-moz-box-shadow: rgba(55, 31, 61, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+ }
+ 
+ header {
+	text-align: justify;
+ 
+ }
+ 
+ .art1{
+	text-align: justify;
+ }
+ 
+ footer {
+	 width: 100%;
+	 clear: left;
+	 text-align: center;
+	 font-size: 1.25em;
+	 margin-top: 100px;
+	 border-top: 2px solid rgb(26, 36, 128);
+	 font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+ }

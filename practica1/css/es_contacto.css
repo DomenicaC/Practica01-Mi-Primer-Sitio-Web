@@ -8,19 +8,23 @@
 */
 
 body {
-   text-align: center;
-   background: #30E8BF;
-   /* fallback for old browsers */
-   background: -webkit-linear-gradient(to right, rgba(255, 130, 53, 0.61), rgba(48, 232, 192, 0.61)), url(../imagenes/fondo51.jpg);
-   /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to right, rgba(255, 130, 53, 0.61), rgba(48, 232, 192, 0.61)), url(../imagenes/fondo51.jpg);
-   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	text-align: center;
+	background: #30E8BF;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(255, 130, 53, 0.61), rgba(48, 232, 192, 0.61)), url(../imagenes/fondo51.jpg);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(255, 130, 53, 0.61), rgba(48, 232, 192, 0.61)), url(../imagenes/fondo51.jpg);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	background-color: white;
+	-moz-box-shadow: rgba(55, 184, 38, 0.9) 20px 0px 25px, rgba(190, 122, 83, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(55, 184, 38, 0.9) 20px 0px 25px, rgba(190, 122, 83, 0.9) -20px 0px 25px;
+	box-shadow: rgba(55, 184, 38, 0.9) 20px 0px 25px, rgba(190, 122, 83, 0.9) -20px 0px 25px;
 
 }
 
 header {
-   text-align: justify;
-
+	text-align: justify;
 }
 
 footer {
@@ -29,20 +33,154 @@ footer {
 	text-align: center;
 	font-size: 1em;
 	margin-top: 100px;
-	border-top: 2px solid rgb(26, 36, 128);
+	border-top: 2px solid rgb(156, 90, 14);
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 
+/*formato menu*/
+
+img,
+object,
+embed,
+video {
+	max-width: 100%;
+}
+
+article {
+	width: 100%;
+	float: left;
+	font-size: 1.25em;
+	text-align: justify;
+}
+
+html,
 body {
-	width: 88.2%;
-	max-width: 900px;
-	padding-left: 0.9%;
-	padding-right: 0.9%;
-	margin: 0px auto auto auto;
+	font-size: 16px;
+}
+
+body {
+	width: 89.9%;
+	padding-left: 2%;
+	padding-right: 2%;
 	clear: none;
 	float: none;
-	background-color: white;
-	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
-	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
-	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	margin-left: auto;
+}
+
+header h1 {
+	font-size: 3.2em;
+}
+
+body article h1 {
+	font-size: 3em;
+}
+
+header h2 {
+	font-size: 2em;
+}
+
+
+
+header h3 {
+	font-size: 2.2em;
+}
+
+body article h3 {
+	font-size: 2em;
+}
+
+article {
+	width: 90%;
+	float: none;
+	margin: 0px auto;
+}
+
+
+article img {
+	float: right;
+	width: 50%;
+	margin: 2% 2% 2% 2%;
+}
+
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+	border: thin solid rgb(17, 56, 127);
+	border-collapse: collapse;
+}
+
+nav ul li a {
+	margin-bottom: 0;
+}
+
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}
+
+li {
+	font-size: 18px;
+}
+
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+
+nav ul li:last-of-type {
+	margin-right: 0%;
+}
+
+
+footer {
+	font-size: 1em;
+}
+
+aside {
+	text-align: center;
+	float: right;
+	margin-left: 25px;
+	margin-right: 25px;
+	vertical-align: top;
+	width: 250px;
+
+	background: #B3FFAB;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right,  rgba(218, 120, 28, 0.80), rgba(89, 214, 17, 0.8));
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(218, 120, 28, 0.80),  rgba(89, 214, 17, 0.8));
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-size: 1.25em;
+}
+
+.aside img {
+	margin: 0;
+	padding: 10px 0 0 0;
+	width: 200%;
+
+}
+
+body .nota img {
+	float: center;
+	width: 700px;
+	height: 300px;
+	margin: 10% 0% 0% 20%;
+	text-align: center;
+
+}
+
+body.nota h2 {
+
+	font-size: 1.5em;
+
+}
+
+body section h3 {
+
+	font-size: 2em;
+
 }
