@@ -104,6 +104,7 @@ footer {
    margin-top: 100px;
    border-top: 2px solid rgb(26, 36, 128);
    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+   
 }
 
 
@@ -191,6 +192,12 @@ nav ul li {
    margin-right: 2%;
    border: thin solid rgb(17, 56, 127);
    border-collapse: collapse;
+   background: #CC95C0;
+   /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, rgba(122, 162, 210, 0.61), rgba(219, 212, 180, 0.61), rgba(204, 148, 192, 0.61)), url(../imagenes/fondo1.jpg);
+   /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, rgba(122, 162, 210, 0.61), rgba(219, 212, 180, 0.61), rgba(204, 148, 192, 0.61)), url(../imagenes/fondo1.jpg);
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 nav ul li a {

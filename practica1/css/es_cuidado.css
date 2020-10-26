@@ -78,6 +78,13 @@ nav ul li {
 	margin-right: 2%;
 	border: thin solid rgb(17, 56, 127);
 	border-collapse: collapse;
+
+	background: #22c1c3;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(253, 187, 45, 0.61), rgba(34, 192, 195, 0.61));
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(253, 187, 45, 0.61), rgba(34, 192, 195, 0.61));
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 nav ul li a {

@@ -26,7 +26,13 @@ body {
 header {
 	text-align: justify;
 }
+header img{
+	margin-left: 25%;
+	text-align: center;
+	float: center;
+	width: 50%;
 
+}
 footer {
 	width: 100%;
 	clear: left;
@@ -66,6 +72,8 @@ body {
 	float: none;
 	margin-left: auto;
 }
+
+
 
 header h1 {
 	font-size: 3.2em;
@@ -109,6 +117,13 @@ nav ul li {
 	margin-right: 2%;
 	border: thin solid rgb(17, 56, 127);
 	border-collapse: collapse;
+
+	background: #30E8BF;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(255, 130, 53, 0.61), rgba(48, 232, 192, 0.61));
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(255, 130, 53, 0.61), rgba(48, 232, 192, 0.61));
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 nav ul li a {

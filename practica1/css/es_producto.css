@@ -153,9 +153,9 @@ nav ul li {
 
 	background: #FEAC5E;
 	/* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, rgba(75, 192, 200, 0.61), rgba(199, 121, 208, 0.61), rgba(254, 171, 94, 0.61)), url(../imagenes/fondo7.jpg);
+	background: -webkit-linear-gradient(to right, rgba(75, 192, 200, 0.61), rgba(199, 121, 208, 0.61), rgba(254, 171, 94, 0.61));
 	/* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, rgba(75, 192, 200, 0.61), rgba(199, 121, 208, 0.61), rgba(254, 171, 94, 0.61)), url(../imagenes/fondo7.jpg);
+	background: linear-gradient(to right, rgba(75, 192, 200, 0.61), rgba(199, 121, 208, 0.61), rgba(254, 171, 94, 0.61));
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }

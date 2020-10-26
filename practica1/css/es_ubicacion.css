@@ -125,6 +125,12 @@ nav ul li {
 	border: thin solid rgb(17, 56, 127);
 	border-collapse: collapse;
 	font-family: "Lucida Grande";
+	background: #acb6e5;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(134, 253, 231, 0.61), rgba(172, 182, 229, 0.61));
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(134, 253, 231, 0.61), rgba(172, 182, 229, 0.61));
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 ol li {
