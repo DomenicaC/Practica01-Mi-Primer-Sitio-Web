@@ -137,7 +137,7 @@ dl {
 	text-align: left;
 }
 
-article img {
+article img { 
 	float: right;
 	width: 20%;
 	margin: 2% 2% 2% 2%;
@@ -150,6 +150,14 @@ nav ul li {
 	margin-right: 2%;
 	border: thin solid rgb(17, 56, 127);
 	border-collapse: collapse;
+
+	background: #FEAC5E;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(75, 192, 200, 0.61), rgba(199, 121, 208, 0.61), rgba(254, 171, 94, 0.61)), url(../imagenes/fondo7.jpg);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(75, 192, 200, 0.61), rgba(199, 121, 208, 0.61), rgba(254, 171, 94, 0.61)), url(../imagenes/fondo7.jpg);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 nav ul li a {

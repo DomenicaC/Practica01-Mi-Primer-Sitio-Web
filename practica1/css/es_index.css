@@ -199,6 +199,14 @@ nav ul li {
 	margin-right: 2%;
 	border: thin solid rgb(17, 56, 127);
 	border-collapse: collapse;
+
+	background: #B3FFAB;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(18, 255, 247, 0.70), rgba(179, 255, 171, 0.70));
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(18, 255, 247, 0.70), rgb(179, 255, 171, 0.70));
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-size: 1.25em;
 }
 
 nav ul li a {
